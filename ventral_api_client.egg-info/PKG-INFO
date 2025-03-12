@@ -1,16 +1,38 @@
-# **Vision API Client** 🚀
+Metadata-Version: 2.2
+Name: ventral-api-client
+Version: 0.1.0
+Summary: A client for Ventral Vision AI's API
+Home-page: https://github.com/kontaktdoo/ventral
+Author: Bare Luka Zagar
+Author-email: bare@ventral.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# **Vision API Client** ðŸš€
 A **lightweight, no-code-friendly vision API** for **object detection and segmentation**. Easily integrate it into your projects with just a few lines of code!  
 
 
 ![vision-api-banner](https://ventral.ai/wp-content/uploads/2024/08/Ventral_Vision_AI_1_-removebg-preview-e1724758129283.png) 
 
-## **✨ Features**  
-✅ **Plug & Play** – Simple API integration with Python & JavaScript clients  
-✅ **Ultra Low-Cost** – Affordable pricing with **Jetson-based cloud inference**  
-✅ **Customizable** – Train & label your own models easily  
-✅ **On-Site Ready** – Deploy locally if needed  
+## **âœ¨ Features**  
+âœ… **Plug & Play** â€“ Simple API integration with Python & JavaScript clients  
+âœ… **Ultra Low-Cost** â€“ Affordable pricing with **Jetson-based cloud inference**  
+âœ… **Customizable** â€“ Train & label your own models easily  
+âœ… **On-Site Ready** â€“ Deploy locally if needed  
 
-## **📦 Installation**  
+## **ðŸ“¦ Installation**  
 ### **Python Client**  
 ```bash
 pip install vision-api-client
@@ -21,7 +43,7 @@ pip install vision-api-client
 npm install vision-api-client
 ```
 
-## **🚀 Quickstart**
+## **ðŸš€ Quickstart**
 ### **Python Example**
 ```python
 from vision_api_client import VisionAPI
@@ -43,20 +65,20 @@ const api = new VisionAPI("your_api_key");
 api.detectObjects("image.jpg").then(console.log);
 ```
 
-## **📡 API Endpoints**
+## **ðŸ“¡ API Endpoints**
 | Method | Endpoint  | Description                     |
 |--------|-----------|---------------------------------|
 | POST   | /detect   | Detect objects in an image      |
 | POST   | /segment  | Perform image segmentation      |
-📖 View full API documentation → TBD
+ðŸ“– View full API documentation â†’ TBD
 
-## **💰 Pricing**
+## **ðŸ’° Pricing**
 | Plan     | Price   | Usage Limit                          |
 |----------|---------|--------------------------------------|
 | Free     | $0      | Limited calls per month              |
 | Standard | $20/mo  | More API calls & priority support    |
 | Pro      | $99/mo  | High usage & premium support         |
-🔗 Subscribe here
+ðŸ”— Subscribe here
 
-## **📢 Get Started Today!**
-Sign up at ventral.ai and get your FREE API key today! 🚀
+## **ðŸ“¢ Get Started Today!**
+Sign up at ventral.ai and get your FREE API key today! ðŸš€
