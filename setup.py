@@ -7,7 +7,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="ventral",  # Change this from "ventral-api-client" to "ventral"
-    version="0.1.3",  # Increment the version
+    version="0.1.4",  # Increment the version
     packages=find_packages(),
     install_requires=[],  # List dependencies here
     author="Bare Luka Zagar",
