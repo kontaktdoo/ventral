@@ -11,7 +11,7 @@ env/
 # Ignore build artifacts
 build/
 dist/
-*.egg-info/
+ventral.egg-info/
 *.egg
 *.whl
 
@@ -25,7 +25,7 @@ Thumbs.db
 *.swp
 
 # Ignore secrets & config files
-config.py
+ventral_api_client/config.py
 .env
 
 # Ignore log and temporary files
