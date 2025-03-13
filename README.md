@@ -24,7 +24,7 @@ npm install ventral
 ## **🚀 Quickstart**
 ### **Python Example**
 ```python
-from ventral import VisionAPI
+from ventral import VisionAPIClient
 
 client = VisionAPIClient(api_key="your_api_key")
 
