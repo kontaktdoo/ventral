@@ -1,4 +1,4 @@
-# **Vision API Client** 🚀
+# **Ventral Vision API Client** 🚀
 A **lightweight, no-code-friendly vision API** for **object detection and segmentation**. Easily integrate it into your projects with just a few lines of code!  
 
 
@@ -13,12 +13,12 @@ A **lightweight, no-code-friendly vision API** for **object detection and segmen
 ## **📦 Installation**  
 ### **Python Client**  
 ```bash
-pip install vision-api-client
+pip install ventral
 ```
 
 ### **JavaScript Client**
 ```bash
-npm install vision-api-client
+npm install ventral
 ```
 
 ## **🚀 Quickstart**
@@ -26,7 +26,7 @@ npm install vision-api-client
 ```python
 from vision_api_client import VisionAPI
 
-api = VisionAPI(api_key="your_api_key")
+client = VisionAPIClient(base_url, api_key)
 
 # Upload an image for object detection
 response = api.detect_objects("image.jpg")

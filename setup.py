@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ventral-api-client",
-    version="0.1.0",
+    name="ventral",  # Change this from "ventral-api-client" to "ventral"
+    version="0.1.1",  # Increment the version
     packages=find_packages(),
     install_requires=[],  # List dependencies here
     author="Bare Luka Zagar",

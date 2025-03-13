@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
-Name: ventral-api-client
-Version: 0.1.0
+Name: ventral
+Version: 0.1.1
 Summary: A client for Ventral Vision AI's API
 Home-page: https://github.com/kontaktdoo/ventral
 Author: Bare Luka Zagar
@@ -20,7 +20,7 @@ Dynamic: home-page
 Dynamic: requires-python
 Dynamic: summary
 
-# **Vision API Client** ðŸš€
+# **Ventral Vision API Client** ðŸš€
 A **lightweight, no-code-friendly vision API** for **object detection and segmentation**. Easily integrate it into your projects with just a few lines of code!  
 
 
