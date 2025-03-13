@@ -7,5 +7,5 @@ ventral.egg-info/SOURCES.txt
 ventral.egg-info/dependency_links.txt
 ventral.egg-info/top_level.txt
 ventral_api_client/__init__.py
-ventral_api_client/client.py
 ventral_api_client/config.py
+ventral_api_client/ventral.py

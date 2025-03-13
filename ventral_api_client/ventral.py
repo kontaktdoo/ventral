@@ -63,9 +63,8 @@ class VisionAPIClient:
 
 # Example Usage
 if __name__ == "__main__":
-    api_key = "your_api_key_here"
 
-    client = VisionAPIClient(api_key)
+    client = VisionAPIClient(api_key="your_api_key_here")
 
     # Example calls
     print(client.detect_objects("test_image.jpg", class_name="car"))

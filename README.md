@@ -24,18 +24,17 @@ npm install ventral
 ## **🚀 Quickstart**
 ### **Python Example**
 ```python
-from vision_api_client import VisionAPI
+from ventral import VisionAPI
 
-client = VisionAPIClient(base_url, api_key)
+client = VisionAPIClient(api_key="your_api_key")
 
 # Upload an image for object detection
-response = api.detect_objects("image.jpg")
-print(response)
+print(client.detect_objects("test_image.jpg", class_name="car"))
 ```
 
 ### **JavaScript Example**
 ```javascript
-import VisionAPI from "vision-api-client";
+import VisionAPI from "ventral";
 
 const api = new VisionAPI("your_api_key");
 
@@ -48,6 +47,10 @@ api.detectObjects("image.jpg").then(console.log);
 |--------|-----------|---------------------------------|
 | POST   | /detect   | Detect objects in an image      |
 | POST   | /segment  | Perform image segmentation      |
+| POST   | /classify  | Classify image     |
+| POST   | /sam2-segment  | Perform image segmentation with SAM2 |
+| POST   | /ocr  | Extract text from image |
+| POST   | /image-caption  | Describe image |
 📖 View full API documentation → TBD
 
 ## **💰 Pricing**

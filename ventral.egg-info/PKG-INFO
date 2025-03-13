@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: ventral
-Version: 0.1.1
+Version: 0.1.2
 Summary: A client for Ventral Vision AI's API
 Home-page: https://github.com/kontaktdoo/ventral
 Author: Bare Luka Zagar
@@ -35,29 +35,28 @@ A **lightweight, no-code-friendly vision API** for **object detection and segmen
 ## **ðŸ“¦ Installation**  
 ### **Python Client**  
 ```bash
-pip install vision-api-client
+pip install ventral
 ```
 
 ### **JavaScript Client**
 ```bash
-npm install vision-api-client
+npm install ventral
 ```
 
 ## **ðŸš€ Quickstart**
 ### **Python Example**
 ```python
-from vision_api_client import VisionAPI
+from ventral import VisionAPI
 
-api = VisionAPI(api_key="your_api_key")
+client = VisionAPIClient(api_key="your_api_key")
 
 # Upload an image for object detection
-response = api.detect_objects("image.jpg")
-print(response)
+print(client.detect_objects("test_image.jpg", class_name="car"))
 ```
 
 ### **JavaScript Example**
 ```javascript
-import VisionAPI from "vision-api-client";
+import VisionAPI from "ventral";
 
 const api = new VisionAPI("your_api_key");
 
@@ -70,6 +69,10 @@ api.detectObjects("image.jpg").then(console.log);
 |--------|-----------|---------------------------------|
 | POST   | /detect   | Detect objects in an image      |
 | POST   | /segment  | Perform image segmentation      |
+| POST   | /classify  | Classify image     |
+| POST   | /sam2-segment  | Perform image segmentation with SAM2 |
+| POST   | /ocr  | Extract text from image |
+| POST   | /image-caption  | Describe image |
 ðŸ“– View full API documentation â†’ TBD
 
 ## **ðŸ’° Pricing**
